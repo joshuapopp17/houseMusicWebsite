@@ -1,0 +1,41 @@
+#title {
+  grid-area: title;
+  color: #ffffff;
+}
+
+#menuImg {
+  grid-area: menuImg;
+  color: #ffffff;
+  text-align: right;
+}
+
+#menuImg img:hover {
+  grid-area: menuImg;
+  color: #ffffff;
+  text-align: right;
+  cursor: pointer;
+}
+
+#blank {
+  grid-area: blank;
+}
+
+.nav-container {
+  width: 100%;
+  position: absolute;
+  padding: 0.5em 2em;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 25fr 50fr 25fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  grid-template-areas: "title blank menuImg";
+  z-index: 50;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 1rem 0rem;
+}
