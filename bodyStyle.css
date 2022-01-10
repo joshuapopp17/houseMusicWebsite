@@ -45,7 +45,7 @@
   font-size: 4vw;
   color: rgb(255, 255, 255);
   animation-name: appear;
-  animation-duration: 7s;
+  animation-duration: 6s;
 }
 
 @keyframes appear {
